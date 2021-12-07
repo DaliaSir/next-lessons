@@ -2,6 +2,7 @@ import axios from 'axios';
 import Head from '../../components/layout/Head';
 import Layout from '../../components/layout/Layout';
 import { BASE_URL } from '../../constants/api';
+import Image from 'next/image';
 
 export default function Game({ game }) {
   console.log(game);
@@ -9,7 +10,7 @@ export default function Game({ game }) {
     <Layout>
       <Head title={game.name} />
       <h1>{game.name}</h1>
-      <img src={game.image} alt="" />
+      <Image src={game.image} alt="Game image" />
     </Layout>
   );
 }
