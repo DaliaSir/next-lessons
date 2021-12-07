@@ -1,7 +1,7 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ["https://noroff.herokuapp.com"],
-  }
+    domains: ["noroff.herokuapp.com"],
+  },
 }
 

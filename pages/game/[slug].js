@@ -10,7 +10,7 @@ export default function Game({ game }) {
     <Layout>
       <Head title={game.name} />
       <h1>{game.name}</h1>
-      <Image src={game.image} alt="Game image" />
+      <Image src={game.image} alt="Game image" width={500} height={500} />
     </Layout>
   );
 }
